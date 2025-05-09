@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "ClaveAsimetricaClass"
+		},
+		{
+			"path": "SimulacionEnvioRecepcion"
+		},
+		{
+			"path": "ClaveSimetricaClass"
+		}
+	],
+	"settings": {}
+}

@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Roberto Anton\\Downloads\\ICB0009-UF1-Pr01 robertoantonmartin\\ClaveAsimetricaClass\\ClaveAsimetricaClass.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Roberto Anton\\Downloads\\ICB0009-UF1-Pr01 robertoantonmartin\\ClaveAsimetricaClass\\ClaveAsimetricaClass.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Roberto Anton\\Downloads\\ICB0009-UF1-Pr01 robertoantonmartin\\ClaveAsimetricaClass\\ClaveAsimetricaClass.csproj",
+        "projectName": "ClaveAsimetricaClass",
+        "projectPath": "C:\\Users\\Roberto Anton\\Downloads\\ICB0009-UF1-Pr01 robertoantonmartin\\ClaveAsimetricaClass\\ClaveAsimetricaClass.csproj",
+        "packagesPath": "C:\\Users\\Roberto Anton\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Roberto Anton\\Downloads\\ICB0009-UF1-Pr01 robertoantonmartin\\ClaveAsimetricaClass\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Roberto Anton\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.407/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
