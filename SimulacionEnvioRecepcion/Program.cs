@@ -14,6 +14,7 @@ namespace SimuladorEnvioRecepcion
         static ClaveAsimetrica Receptor = new ClaveAsimetrica();
         static ClaveSimetrica ClaveSimetricaEmisor = new ClaveSimetrica();
         static ClaveSimetrica ClaveSimetricaReceptor = new ClaveSimetrica();
+        static byte[] Salt;
 
         static string TextoAEnviar = "Me he dado cuenta que incluso las personas que dicen que todo está predestinado y que no podemos hacer nada para cambiar nuestro destino igual miran antes de cruzar la calle. Stephen Hawking.";
         
