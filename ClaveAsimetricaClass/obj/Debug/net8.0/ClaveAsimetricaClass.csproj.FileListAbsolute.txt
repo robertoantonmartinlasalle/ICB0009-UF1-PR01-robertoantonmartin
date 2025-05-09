@@ -1,0 +1,12 @@
+C:\Users\Roberto Anton\Downloads\ICB0009-UF1-Pr01 robertoantonmartin\ClaveAsimetricaClass\bin\Debug\net8.0\ClaveAsimetricaClass.deps.json
+C:\Users\Roberto Anton\Downloads\ICB0009-UF1-Pr01 robertoantonmartin\ClaveAsimetricaClass\bin\Debug\net8.0\ClaveAsimetricaClass.dll
+C:\Users\Roberto Anton\Downloads\ICB0009-UF1-Pr01 robertoantonmartin\ClaveAsimetricaClass\bin\Debug\net8.0\ClaveAsimetricaClass.pdb
+C:\Users\Roberto Anton\Downloads\ICB0009-UF1-Pr01 robertoantonmartin\ClaveAsimetricaClass\obj\Debug\net8.0\ClaveAsimetricaClass.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Roberto Anton\Downloads\ICB0009-UF1-Pr01 robertoantonmartin\ClaveAsimetricaClass\obj\Debug\net8.0\ClaveAsimetricaClass.AssemblyInfoInputs.cache
+C:\Users\Roberto Anton\Downloads\ICB0009-UF1-Pr01 robertoantonmartin\ClaveAsimetricaClass\obj\Debug\net8.0\ClaveAsimetricaClass.AssemblyInfo.cs
+C:\Users\Roberto Anton\Downloads\ICB0009-UF1-Pr01 robertoantonmartin\ClaveAsimetricaClass\obj\Debug\net8.0\ClaveAsimetricaClass.csproj.CoreCompileInputs.cache
+C:\Users\Roberto Anton\Downloads\ICB0009-UF1-Pr01 robertoantonmartin\ClaveAsimetricaClass\obj\Debug\net8.0\ClaveAsimetricaClass.sourcelink.json
+C:\Users\Roberto Anton\Downloads\ICB0009-UF1-Pr01 robertoantonmartin\ClaveAsimetricaClass\obj\Debug\net8.0\ClaveAsimetricaClass.dll
+C:\Users\Roberto Anton\Downloads\ICB0009-UF1-Pr01 robertoantonmartin\ClaveAsimetricaClass\obj\Debug\net8.0\refint\ClaveAsimetricaClass.dll
+C:\Users\Roberto Anton\Downloads\ICB0009-UF1-Pr01 robertoantonmartin\ClaveAsimetricaClass\obj\Debug\net8.0\ClaveAsimetricaClass.pdb
+C:\Users\Roberto Anton\Downloads\ICB0009-UF1-Pr01 robertoantonmartin\ClaveAsimetricaClass\obj\Debug\net8.0\ref\ClaveAsimetricaClass.dll
