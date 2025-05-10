@@ -56,6 +56,10 @@ namespace SimuladorEnvioRecepcion
                 Console.WriteLine("Texto cifrado: {0}", BytesToStringHex(TextoCifrado));
 
                 //Cifrar clave simétrica con la clave pública del receptor
+                byte[] ClaveSimetricaKeyCifrada = Receptor.CifrarMensaje(ClaveSimetricaEmisor.Key);
+                byte[] ClaveSimetricaIVCifrada = Receptor.CifrarMensaje(ClaveSimetricaEmisor.IV);
+                Console.WriteLine("Clave simetrica cifrada (Key): {0}", BytesToStringHex(ClaveSimetricaKeyCifrada));
+                Console.WriteLine("Clave simetrica cifrada (IV): {0}", BytesToStringHex(ClaveSimetricaIVCifrada));
 
                 //LADO RECEPTOR
 
