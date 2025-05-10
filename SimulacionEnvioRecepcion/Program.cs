@@ -26,10 +26,13 @@ namespace SimuladorEnvioRecepcion
             Console.WriteLine ("¿Deseas registrarte? (S/N)");
             string registro = Console.ReadLine ();
 
-            if (registro.Trim().ToUpper() =="S")
+            if (registro.Trim().ToUpper() == "S")
             {
                 //Realizar registro del cliente
-                Registro();                
+                Registro();
+            } else {
+                Console.WriteLine("No hay ningún usuario registrado. Por favor, registrese.");
+                Registro();
             }
 
             //Realizar login
@@ -122,9 +125,9 @@ namespace SimuladorEnvioRecepcion
                     using (var pbkdf2 = new Rfc2898DeriveBytes(Password, Salt, iteraciones))
                     {
                         byte[] hash = pbkdf2.GetBytes(32);
-                        string hashHex = BytesToStringHex(hash);
+                        byte[] storedHashBytes = StringHexToBytes(SecurePass);
 
-                        if (hashHex == SecurePass)
+                        if (CryptographicOperations.FixedTimeEquals(hash, storedHashBytes))
                         {
                             Console.WriteLine("Login correcto.");
                             auxlogin = true;
@@ -154,6 +157,17 @@ namespace SimuladorEnvioRecepcion
                 stringBuilder.AppendFormat("{0:x2}", b);
 
             return stringBuilder.ToString();
-        }        
+        }
+
+        public static byte[] StringHexToBytes(string hex)
+        {
+            int length = hex.Length;
+            byte[] bytes = new byte[length / 2];
+            for (int i = 0; i < length; i += 2)
+            {
+                bytes[i / 2] = Convert.ToByte(hex.Substring(i, 2), 16);
+            }
+            return bytes;
+        }    
     }
 }
