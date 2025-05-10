@@ -168,6 +168,6 @@ namespace SimuladorEnvioRecepcion
                 bytes[i / 2] = Convert.ToByte(hex.Substring(i, 2), 16);
             }
             return bytes;
-        }    
+        }
     }
 }
