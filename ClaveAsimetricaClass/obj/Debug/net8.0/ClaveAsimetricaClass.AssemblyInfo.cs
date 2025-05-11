@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ClaveAsimetricaClass")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6ca9a88d81438241435835384a528a1961179170")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0e7ff6e8f559fd8bfb3e82fe3d52ca353b15c62d")]
 [assembly: System.Reflection.AssemblyProductAttribute("ClaveAsimetricaClass")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ClaveAsimetricaClass")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
