@@ -80,12 +80,12 @@ namespace SimuladorEnvioRecepcion
                 bool firmaValida = Receptor.ComprobarFirma(Firma, TextoDescifrado_Bytes, Emisor.PublicKey);
                 if (firmaValida)
                 {
-                    Console.WriteLine("Firma válida ✅. El mensaje es auténtico.");
-                    Console.WriteLine("Mensaje recibido correctamente: " + TextoDescifrado);
+                    Console.WriteLine("Firma válida. El mensaje debe ser el original.");
+                    Console.WriteLine("Mensaje recibido: " + TextoDescifrado);
                 }
                 else
                 {
-                    Console.WriteLine("Firma NO válida ❌. El mensaje podría haber sido modificado.");
+                    Console.WriteLine("La firma NO coincide. El mensaje podría haber sido alterado.");
                 }
 
             }
@@ -149,18 +149,18 @@ namespace SimuladorEnvioRecepcion
 
                         if (CryptographicOperations.FixedTimeEquals(hash, storedHashBytes))
                         {
-                            Console.WriteLine("Login correcto.");
+                            Console.WriteLine("Usuario y contraseña correcto.");
                             auxlogin = true;
                         }
                         else
                         {
-                            Console.WriteLine("Contraseña incorrecta. Inténtalo de nuevo.");
+                            Console.WriteLine("⚠️ La contraseña no coincide. Por favor, vuelve a intentarlo.");
                         }
                     }
                 }
                 else
                 {
-                    Console.WriteLine("Usuario no encontrado. Inténtalo de nuevo.");
+                    Console.WriteLine("Usuario no encontrado. Inténtalo de nuevo o registrese primero.");
                 }
 
 
