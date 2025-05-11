@@ -41,7 +41,9 @@ namespace SimuladorEnvioRecepcion
             /***FIN PARTE 1***/
 
             if (login)
-            {                  
+            {
+                Console.WriteLine("Presiona ENTER para continuar con la simulación.");
+                Console.ReadLine();      
                 byte[] TextoAEnviar_Bytes = Encoding.UTF8.GetBytes(TextoAEnviar); 
                 Console.WriteLine("Texto a enviar bytes: {0}", BytesToStringHex(TextoAEnviar_Bytes));    
                 
